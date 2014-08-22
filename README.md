@@ -116,12 +116,8 @@ tree.loadSubTree(treeItem); // load sub tree for of the concreate model
 ## Content Cache API
 Content cache uses for loading content from GitHub and keep it in cache and finally commit it:
 
+```js
 var contentCache = branchItem.getContentCache();
 // return Backbone.Model
 contentCache.loadContent({sha:sha, path:path}); // load content by SHA or PATH
-
-
-
-
-
-
+```
